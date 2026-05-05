@@ -1,6 +1,7 @@
 ## 激活环境
 
-source venv/bin/activate
+mac: source venv/bin/activate
+windows: venv\Scripts\activate
 
 退出
 
