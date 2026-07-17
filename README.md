@@ -19,3 +19,12 @@ pyenv global 3.10.0
 
 #    项目级切换 (在当前目录生效，会生成一个 .python-version 文件)
 pyenv local 3.10.0
+
+安装uv 包管理
+
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+source ~/.zshrc
+
+创建项目时指定版本
+uv init --python 3.14
